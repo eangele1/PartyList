@@ -71,7 +71,8 @@ public class results extends partyList{
 		if (choice == 1){
 			//List will be printed to a document
 			try {
-				PrintStream o = new PrintStream(new File("Party List.txt"));
+				String userHomeFolder = System.getProperty("user.home") + "/Desktop";
+				PrintStream o = new PrintStream(new File(userHomeFolder, "Party List.txt"));
 				PrintStream console = System.out;
 				System.setOut(o);
 				list(maxmeals, maxdrinks, drinkAmounts, cups, plates, mealChoice, kidsMealAmounts, adultsMealAmounts, mealAmounts);
@@ -82,7 +83,7 @@ public class results extends partyList{
 				list(maxmeals, maxdrinks, drinkAmounts, cups, plates, mealChoice, kidsMealAmounts, adultsMealAmounts, mealAmounts);
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
-				System.out.println("ERROR. FILE NOT FOUND. STOPPING PROGRAM NOW.");
+				System.out.println("ERROR. STOPPING PROGRAM NOW.");
 				System.exit(0);
 			}
 		}
