@@ -16,10 +16,10 @@ public class partyList {
 		System.out.println("Hello.");
 		System.out.println("");
 		System.out.println("This program will estimate the amount of "
-				+ "\nmaterials you will need for the meal portion \nof your party.");
+				+ "\nmaterials you will need for the meal aspect \nof your party.");
 		System.out.println("");
 		System.out.println("In order to use this program, it is highly recommended you"
-				+ "\nhave your guests RSVP to your party via in-person, phone or email.");
+				+ "\nhave your guests RSVP to your party ahead of time via in-person, phone or email.");
 		System.out.println("\nNOTE: \nThese calculations are approximate. "
 				+ "\nPlease plan according to your situation.");
 	}
