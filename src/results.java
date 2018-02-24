@@ -14,7 +14,7 @@ public class results extends partyList{
 		utensils[1] = kids[0];
 
 		//Starts list and prints out number of utensils needed
-		System.out.println("\nThis is your overall list:");
+		System.out.println("This is your overall list:");
 		System.out.println("\nPlastic or Silverware Utensils \n(Sets of 1 Knife, 1 Fork, and 1 Spoon): "
 				+ "\nAdults: " + utensils[0] + "\nKids: " + utensils[1]);
 		System.out.println("\nDrinks:");
