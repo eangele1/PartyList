@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class partyList {
 
-	// Introdution before the program starts
+	// Introduction before the program starts
 
 	public static void intro(){
 		System.out.println( "*******************************************************"
@@ -48,7 +48,7 @@ public class partyList {
 
 		while(true){
 
-			//Erases arraylists contents after each loop.
+			//Erases array lists contents after each loop.
 			drinkNames.clear();
 			mealNames.clear();
 			kidsMealNames.clear();
@@ -82,7 +82,7 @@ public class partyList {
 			ArrayList <Integer> adultsMealAmounts = new ArrayList <Integer>();
 			//--Variable declaration & input end--
 
-			//Erases arraylists contents after each loop.
+			//Erases array lists contents after each loop.
 			kidsMealAmounts.clear();
 			adultsMealAmounts.clear();
 

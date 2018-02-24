@@ -81,7 +81,7 @@ public class meals extends partyList{
 
 		Scanner input = new Scanner (System.in);
 
-		//Asks user if meals are seperate
+		//Asks user if meals are separate
 		System.out.println("\nWill your meals be separate? (Adult meals and kids meals?)"
 				+ "\n(Type 1 for yes, 0 for no)");
 		mealChoice = input.nextInt();

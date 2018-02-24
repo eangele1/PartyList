@@ -31,7 +31,7 @@ public class results extends partyList{
 		System.out.println("\nPlates to buy: "
 				+ "\n" + plates);
 
-		//Prints out meals names, which depend on whether they are seperate or not
+		//Prints out meals names, which depend on whether they are separate or not
 		System.out.println("\nMeals:");
 
 		if(mealChoice == 1){
@@ -69,7 +69,7 @@ public class results extends partyList{
 		}
 
 		if (choice == 1){
-			//List will be printed to a document
+			//List will be printed to a document & on screen, and stored to the computer desktop.
 			try {
 				String userHomeFolder = System.getProperty("user.home") + "/Desktop";
 				PrintStream o = new PrintStream(new File(userHomeFolder, "Party List.txt"));
@@ -88,7 +88,7 @@ public class results extends partyList{
 			}
 		}
 		else{
-			//List will not be printed to a document
+			//List will be printed on to the screen only.
 			list(maxmeals, maxdrinks, drinkAmounts, cups, plates, mealChoice, kidsMealAmounts, adultsMealAmounts, mealAmounts);
 		}
 	}
