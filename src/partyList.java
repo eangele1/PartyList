@@ -24,7 +24,7 @@ public class partyList {
 				+ "\nPlease plan according to your situation.");
 	}
 
-	//--STATIC VARIABLES START--
+	//--GLOBAL VARIABLES START--
 
 	static int[] adults = new int[1];
 	static int[] kids = new int[1];
@@ -34,7 +34,7 @@ public class partyList {
 	static ArrayList<String> adultMealNames = new ArrayList<String>();
 	static int cups, plates, mealChoice, maxKidsMeals, maxAdultMeals;
 
-	//--STATIC VARIABLES END--
+	//--GLOBAL VARIABLES END--
 
 	public static void main(String[] args){
 
